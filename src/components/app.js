@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import BadModal from "./BadModal";
+import Modal from "./Modal";
 import Colors from "./Colors";
 class App extends Component {
   render() {
@@ -21,11 +21,11 @@ class App extends Component {
           <h5>Hello</h5>
           <h6>Hello</h6>
           <div>
-            <BadModal>
+            <Modal>
               <h1>A really long amount of Modal Content</h1>
               <p>Etc.</p>
               <Colors />
-            </BadModal>
+            </Modal>
           </div>
         </div>
       </div>
